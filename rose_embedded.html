@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>Internal CSS</title>
+    
+<style>
+    .navigator{
+        background: #d6d1b1;
+        height: 400px; 
+    }
+
+    .navigator-content{
+        color: #f49ac2;
+        font-size: 3em;
+        padding: 1em 0em 1em 0em;
+        text-shadow: 2px 2px 3px #000000;
+        text-align: center;
+    }
+
+    .navigator-content a{
+        font-family: Helvetica;
+        color: #9aeff4;
+        font-size: 1em;
+        text-decoration-line: none;
+        font-weight: bold;
+        padding: 0em 1em;
+    }
+
+    a:hover{
+        font-size: 1.5em;
+        color: #f49ac2;
+    }
+
+    .parallax{
+        background: url("assets/rose3.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        height: 600px; 
+    }
+
+    .parallax-content{
+        font-family: Helvetica;
+        color: #FE5F55;
+        font-size: 4em;
+        padding: 1em 1em;
+        text-shadow: 2px 2px #000000
+    }
+
+    .first-row{
+        background-color: #FE5F55;
+        width: 100%;
+        height: 300px;
+        float: left;
+        display: flex
+    }
+
+    img{
+        height: 70%;
+        padding: 3em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    .first-row1{
+        width: 50%;
+        padding: 3em 1em 3em 10%;
+        color: white;
+        text-align: left;
+        float: left;
+    }
+
+    .first-row1 h3{
+        text-align: center;
+        color: #C7EFCF;
+        font-family: Helvetica;
+        font-size: 2em;
+    }
+
+    .second-row{
+        background-color: #F0B67F;
+        color:  black;
+        width: 100%;
+        height: 300px;
+        float: left;
+        display: flex
+    }
+
+    .second-row1{
+        width: 50%;
+        padding: 3em 1em 3em 10%;
+        text-align: left;
+        float: left;
+    }
+
+    .second-row1 h3{
+        text-align: center;
+        color: #FE5F55;
+        font-family: Helvetica;
+        font-size: 2em;
+    }
+
+    .third-row{
+        background-color: #D6D1B1;
+        color: white;
+        width: 100%;
+        height: 300px;
+        float: left;
+        display: flex
+    }
+
+    .third-row1{
+        width: 50%;
+        padding: 3em 1em 3em 10%;
+        text-align: left;
+        float: left;
+        color: black;
+    }
+
+    .third-row h3{
+        text-align: center;
+        color: #FE5F55;
+        font-family: Helvetica;  
+        font-size: 2em;     
+    }
+   
+    #diamond1{
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color:  #FE5F55;
+    }
+
+    #diamond2{
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color:  #F0B67F;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="navigator">
+        <div class="navigator-content">
+                <h1>MI AMIGOS</h1>
+                <nav>
+                        <a href="rose_embedded.html">ROSE</a>
+                        <a href="peter_external.html">PETER</a>
+                        <a href="alena_inline.html">ALENA</a>
+                </nav>
+        </div>
+    </div>
+
+<div class="parallax">
+    <div class="parallax-content">
+            <h1>Rose <br> Tarrega</h1>
+    </div></div>
+
+<div class="first-row">
+        <img src="assets/rose5.jpg" alt="">
+    <div class="first-row1">
+    <h3>OVERALL PROFILE</h3>
+    <P> Rose is a happy-go-lucky stunner from Cavite. She usually attracts boys through her tantalizing eyes.
+        She is actually good in planning ceative strategies and that is what I admire about her.
+    </P>
+    </div>
+    </div>
+
+
+<div class="second-row">
+    <div class="second-row1">
+            <h3>A STRONG AFFECTION TO KIDS</h3>
+            <p>Rose will always have a big heart to kids. She will see to it that if there's a baby around,
+                that baby will have the best moments of her life. </p>
+    </div>
+    <div id="diamond1"></div>
+    <img src="assets/rose4.jpg" alt="">
+    </div>
+
+<div class="third-row">
+    <img src="assets/rose 6.jpg" alt="">
+    <div id="diamond2"></div>
+    <div class="third-row1">
+            <h3>THE STRONGEST WOMAN THAT I KNOW</h3>
+            <p>No matter how hard life may seem to be, she always puts up her best 
+                smile in front of everyone and somehow that is everything.
+             </p>
+    </div>
+</div>
+
+
+</body>
+</html>
